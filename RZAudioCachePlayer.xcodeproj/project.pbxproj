@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92FCFA471D49A25F00E6D99A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA461D49A25F00E6D99A /* main.m */; };
+		92FCFA4A1D49A25F00E6D99A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA491D49A25F00E6D99A /* AppDelegate.m */; };
+		92FCFA4D1D49A25F00E6D99A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA4C1D49A25F00E6D99A /* ViewController.m */; };
+		92FCFA501D49A25F00E6D99A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA4E1D49A25F00E6D99A /* Main.storyboard */; };
+		92FCFA521D49A25F00E6D99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA511D49A25F00E6D99A /* Assets.xcassets */; };
+		92FCFA551D49A25F00E6D99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA531D49A25F00E6D99A /* LaunchScreen.storyboard */; };
+		92FCFA601D49A25F00E6D99A /* RZAudioCachePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA5F1D49A25F00E6D99A /* RZAudioCachePlayerTests.m */; };
+		92FCFA6B1D49A25F00E6D99A /* RZAudioCachePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA6A1D49A25F00E6D99A /* RZAudioCachePlayerUITests.m */; };
+		92FCFA7C1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */; };
+		92FCFA7D1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */; };
+		92FCFA7E1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */; };
+		92FCFA811D49A3C900E6D99A /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA801D49A3C900E6D99A /* RZPlayer.m */; };
+		92FCFA821D49A3C900E6D99A /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA801D49A3C900E6D99A /* RZPlayer.m */; };
+		92FCFA831D49A3C900E6D99A /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA801D49A3C900E6D99A /* RZPlayer.m */; };
+		92FCFA861D49AA1700E6D99A /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */; };
+		92FCFA871D49AA1700E6D99A /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */; };
+		92FCFA881D49AA1700E6D99A /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */; };
+		92FCFA8D1D49AFB700E6D99A /* p190415_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA891D49AFB700E6D99A /* p190415_128k.jpg */; };
+		92FCFA8E1D49AFB700E6D99A /* p190415_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA891D49AFB700E6D99A /* p190415_128k.jpg */; };
+		92FCFA8F1D49AFB700E6D99A /* p190415_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA891D49AFB700E6D99A /* p190415_128k.jpg */; };
+		92FCFA901D49AFB700E6D99A /* p1393354_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8A1D49AFB700E6D99A /* p1393354_128k.jpg */; };
+		92FCFA911D49AFB700E6D99A /* p1393354_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8A1D49AFB700E6D99A /* p1393354_128k.jpg */; };
+		92FCFA921D49AFB700E6D99A /* p1393354_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8A1D49AFB700E6D99A /* p1393354_128k.jpg */; };
+		92FCFA931D49AFB700E6D99A /* p1458183_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8B1D49AFB700E6D99A /* p1458183_128k.jpg */; };
+		92FCFA941D49AFB700E6D99A /* p1458183_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8B1D49AFB700E6D99A /* p1458183_128k.jpg */; };
+		92FCFA951D49AFB700E6D99A /* p1458183_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8B1D49AFB700E6D99A /* p1458183_128k.jpg */; };
+		92FCFA961D49AFB700E6D99A /* p966452_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8C1D49AFB700E6D99A /* p966452_128k.jpg */; };
+		92FCFA971D49AFB700E6D99A /* p966452_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8C1D49AFB700E6D99A /* p966452_128k.jpg */; };
+		92FCFA981D49AFB700E6D99A /* p966452_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCFA8C1D49AFB700E6D99A /* p966452_128k.jpg */; };
+		92FCFA9B1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9A1D49B3CC00E6D99A /* UIButton+RZColorState.m */; };
+		92FCFA9C1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9A1D49B3CC00E6D99A /* UIButton+RZColorState.m */; };
+		92FCFA9D1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9A1D49B3CC00E6D99A /* UIButton+RZColorState.m */; };
+		92FCFAA01D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */; };
+		92FCFAA11D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */; };
+		92FCFAA21D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */; };
+		92FCFAA51D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */; };
+		92FCFAA61D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */; };
+		92FCFAA71D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */; };
+		92FCFAAB1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */; };
+		92FCFAAC1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */; };
+		92FCFAAD1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */; };
+		92FCFAB51D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */; };
+		92FCFAB61D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */; };
+		92FCFAB71D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */; };
+		92FCFABA1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */; };
+		92FCFABB1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */; };
+		92FCFABC1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */; };
+		92FCFAC01D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */; };
+		92FCFAC11D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */; };
+		92FCFAC21D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92FCFA5C1D49A25F00E6D99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FCFA3A1D49A25F00E6D99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FCFA411D49A25F00E6D99A;
+			remoteInfo = RZAudioCachePlayer;
+		};
+		92FCFA671D49A25F00E6D99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FCFA3A1D49A25F00E6D99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FCFA411D49A25F00E6D99A;
+			remoteInfo = RZAudioCachePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92FCFA421D49A25F00E6D99A /* RZAudioCachePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZAudioCachePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FCFA461D49A25F00E6D99A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92FCFA481D49A25F00E6D99A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92FCFA491D49A25F00E6D99A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92FCFA4B1D49A25F00E6D99A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92FCFA4C1D49A25F00E6D99A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92FCFA4F1D49A25F00E6D99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92FCFA511D49A25F00E6D99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FCFA541D49A25F00E6D99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92FCFA561D49A25F00E6D99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FCFA5B1D49A25F00E6D99A /* RZAudioCachePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZAudioCachePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FCFA5F1D49A25F00E6D99A /* RZAudioCachePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZAudioCachePlayerTests.m; sourceTree = "<group>"; };
+		92FCFA611D49A25F00E6D99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FCFA661D49A25F00E6D99A /* RZAudioCachePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZAudioCachePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FCFA6A1D49A25F00E6D99A /* RZAudioCachePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZAudioCachePlayerUITests.m; sourceTree = "<group>"; };
+		92FCFA6C1D49A25F00E6D99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FCFA7A1D49A3B300E6D99A /* UIView+ZXAdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXAdjustFrame.h"; sourceTree = "<group>"; };
+		92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXAdjustFrame.m"; sourceTree = "<group>"; };
+		92FCFA7F1D49A3C900E6D99A /* RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayer.h; sourceTree = "<group>"; };
+		92FCFA801D49A3C900E6D99A /* RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayer.m; sourceTree = "<group>"; };
+		92FCFA841D49AA1700E6D99A /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
+		92FCFA891D49AFB700E6D99A /* p190415_128k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p190415_128k.jpg; sourceTree = "<group>"; };
+		92FCFA8A1D49AFB700E6D99A /* p1393354_128k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1393354_128k.jpg; sourceTree = "<group>"; };
+		92FCFA8B1D49AFB700E6D99A /* p1458183_128k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1458183_128k.jpg; sourceTree = "<group>"; };
+		92FCFA8C1D49AFB700E6D99A /* p966452_128k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p966452_128k.jpg; sourceTree = "<group>"; };
+		92FCFA991D49B3CC00E6D99A /* UIButton+RZColorState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RZColorState.h"; sourceTree = "<group>"; };
+		92FCFA9A1D49B3CC00E6D99A /* UIButton+RZColorState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RZColorState.m"; sourceTree = "<group>"; };
+		92FCFA9E1D49B44B00E6D99A /* UIImage+RZColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RZColorImage.h"; sourceTree = "<group>"; };
+		92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RZColorImage.m"; sourceTree = "<group>"; };
+		92FCFAA31D49DDFD00E6D99A /* RZPlayerFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerFileHandle.h; sourceTree = "<group>"; };
+		92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerFileHandle.m; sourceTree = "<group>"; };
+		92FCFAA91D49DFC200E6D99A /* NSString+RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RZPlayer.h"; sourceTree = "<group>"; };
+		92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RZPlayer.m"; sourceTree = "<group>"; };
+		92FCFAB31D49E84900E6D99A /* RZPlayerRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerRequestTask.h; sourceTree = "<group>"; };
+		92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerRequestTask.m; sourceTree = "<group>"; };
+		92FCFAB81D49EB1200E6D99A /* NSURL+RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RZPlayer.h"; sourceTree = "<group>"; };
+		92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RZPlayer.m"; sourceTree = "<group>"; };
+		92FCFABD1D49EC1200E6D99A /* RZPlayerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZPlayerConfiguration.h; sourceTree = "<group>"; };
+		92FCFABE1D49F29B00E6D99A /* RZPlayerResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerResourceLoader.h; sourceTree = "<group>"; };
+		92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerResourceLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FCFA3F1D49A25F00E6D99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FCFA581D49A25F00E6D99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FCFA631D49A25F00E6D99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92FCFA391D49A25F00E6D99A = {
+			isa = PBXGroup;
+			children = (
+				92FCFA441D49A25F00E6D99A /* RZAudioCachePlayer */,
+				92FCFA5E1D49A25F00E6D99A /* RZAudioCachePlayerTests */,
+				92FCFA691D49A25F00E6D99A /* RZAudioCachePlayerUITests */,
+				92FCFA431D49A25F00E6D99A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92FCFA431D49A25F00E6D99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFA421D49A25F00E6D99A /* RZAudioCachePlayer.app */,
+				92FCFA5B1D49A25F00E6D99A /* RZAudioCachePlayerTests.xctest */,
+				92FCFA661D49A25F00E6D99A /* RZAudioCachePlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FCFA441D49A25F00E6D99A /* RZAudioCachePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFA781D49A38000E6D99A /* Categories */,
+				92FCFA791D49A38000E6D99A /* RZPlayer */,
+				92FCFA481D49A25F00E6D99A /* AppDelegate.h */,
+				92FCFA491D49A25F00E6D99A /* AppDelegate.m */,
+				92FCFA4B1D49A25F00E6D99A /* ViewController.h */,
+				92FCFA4C1D49A25F00E6D99A /* ViewController.m */,
+				92FCFA4E1D49A25F00E6D99A /* Main.storyboard */,
+				92FCFA511D49A25F00E6D99A /* Assets.xcassets */,
+				92FCFA531D49A25F00E6D99A /* LaunchScreen.storyboard */,
+				92FCFA561D49A25F00E6D99A /* Info.plist */,
+				92FCFA451D49A25F00E6D99A /* Supporting Files */,
+			);
+			path = RZAudioCachePlayer;
+			sourceTree = "<group>";
+		};
+		92FCFA451D49A25F00E6D99A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFA891D49AFB700E6D99A /* p190415_128k.jpg */,
+				92FCFA8A1D49AFB700E6D99A /* p1393354_128k.jpg */,
+				92FCFA8B1D49AFB700E6D99A /* p1458183_128k.jpg */,
+				92FCFA8C1D49AFB700E6D99A /* p966452_128k.jpg */,
+				92FCFA461D49A25F00E6D99A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92FCFA5E1D49A25F00E6D99A /* RZAudioCachePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFA5F1D49A25F00E6D99A /* RZAudioCachePlayerTests.m */,
+				92FCFA611D49A25F00E6D99A /* Info.plist */,
+			);
+			path = RZAudioCachePlayerTests;
+			sourceTree = "<group>";
+		};
+		92FCFA691D49A25F00E6D99A /* RZAudioCachePlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFA6A1D49A25F00E6D99A /* RZAudioCachePlayerUITests.m */,
+				92FCFA6C1D49A25F00E6D99A /* Info.plist */,
+			);
+			path = RZAudioCachePlayerUITests;
+			sourceTree = "<group>";
+		};
+		92FCFA781D49A38000E6D99A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFA9E1D49B44B00E6D99A /* UIImage+RZColorImage.h */,
+				92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */,
+				92FCFA991D49B3CC00E6D99A /* UIButton+RZColorState.h */,
+				92FCFA9A1D49B3CC00E6D99A /* UIButton+RZColorState.m */,
+				92FCFA841D49AA1700E6D99A /* UIColor+RGB.h */,
+				92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */,
+				92FCFA7A1D49A3B300E6D99A /* UIView+ZXAdjustFrame.h */,
+				92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		92FCFA791D49A38000E6D99A /* RZPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFAA81D49DF9300E6D99A /* Categories */,
+				92FCFA7F1D49A3C900E6D99A /* RZPlayer.h */,
+				92FCFA801D49A3C900E6D99A /* RZPlayer.m */,
+				92FCFAA31D49DDFD00E6D99A /* RZPlayerFileHandle.h */,
+				92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */,
+				92FCFAB31D49E84900E6D99A /* RZPlayerRequestTask.h */,
+				92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */,
+				92FCFABE1D49F29B00E6D99A /* RZPlayerResourceLoader.h */,
+				92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */,
+				92FCFABD1D49EC1200E6D99A /* RZPlayerConfiguration.h */,
+			);
+			name = RZPlayer;
+			path = RZAudioCachePlayer;
+			sourceTree = "<group>";
+		};
+		92FCFAA81D49DF9300E6D99A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFAA91D49DFC200E6D99A /* NSString+RZPlayer.h */,
+				92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */,
+				92FCFAB81D49EB1200E6D99A /* NSURL+RZPlayer.h */,
+				92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FCFA411D49A25F00E6D99A /* RZAudioCachePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FCFA6F1D49A25F00E6D99A /* Build configuration list for PBXNativeTarget "RZAudioCachePlayer" */;
+			buildPhases = (
+				92FCFA3E1D49A25F00E6D99A /* Sources */,
+				92FCFA3F1D49A25F00E6D99A /* Frameworks */,
+				92FCFA401D49A25F00E6D99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZAudioCachePlayer;
+			productName = RZAudioCachePlayer;
+			productReference = 92FCFA421D49A25F00E6D99A /* RZAudioCachePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92FCFA5A1D49A25F00E6D99A /* RZAudioCachePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FCFA721D49A25F00E6D99A /* Build configuration list for PBXNativeTarget "RZAudioCachePlayerTests" */;
+			buildPhases = (
+				92FCFA571D49A25F00E6D99A /* Sources */,
+				92FCFA581D49A25F00E6D99A /* Frameworks */,
+				92FCFA591D49A25F00E6D99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FCFA5D1D49A25F00E6D99A /* PBXTargetDependency */,
+			);
+			name = RZAudioCachePlayerTests;
+			productName = RZAudioCachePlayerTests;
+			productReference = 92FCFA5B1D49A25F00E6D99A /* RZAudioCachePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92FCFA651D49A25F00E6D99A /* RZAudioCachePlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FCFA751D49A25F00E6D99A /* Build configuration list for PBXNativeTarget "RZAudioCachePlayerUITests" */;
+			buildPhases = (
+				92FCFA621D49A25F00E6D99A /* Sources */,
+				92FCFA631D49A25F00E6D99A /* Frameworks */,
+				92FCFA641D49A25F00E6D99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FCFA681D49A25F00E6D99A /* PBXTargetDependency */,
+			);
+			name = RZAudioCachePlayerUITests;
+			productName = RZAudioCachePlayerUITests;
+			productReference = 92FCFA661D49A25F00E6D99A /* RZAudioCachePlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FCFA3A1D49A25F00E6D99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zrocky;
+				TargetAttributes = {
+					92FCFA411D49A25F00E6D99A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					92FCFA5A1D49A25F00E6D99A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 92FCFA411D49A25F00E6D99A;
+					};
+					92FCFA651D49A25F00E6D99A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 92FCFA411D49A25F00E6D99A;
+					};
+				};
+			};
+			buildConfigurationList = 92FCFA3D1D49A25F00E6D99A /* Build configuration list for PBXProject "RZAudioCachePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92FCFA391D49A25F00E6D99A;
+			productRefGroup = 92FCFA431D49A25F00E6D99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FCFA411D49A25F00E6D99A /* RZAudioCachePlayer */,
+				92FCFA5A1D49A25F00E6D99A /* RZAudioCachePlayerTests */,
+				92FCFA651D49A25F00E6D99A /* RZAudioCachePlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FCFA401D49A25F00E6D99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FCFA961D49AFB700E6D99A /* p966452_128k.jpg in Resources */,
+				92FCFA8D1D49AFB700E6D99A /* p190415_128k.jpg in Resources */,
+				92FCFA901D49AFB700E6D99A /* p1393354_128k.jpg in Resources */,
+				92FCFA551D49A25F00E6D99A /* LaunchScreen.storyboard in Resources */,
+				92FCFA521D49A25F00E6D99A /* Assets.xcassets in Resources */,
+				92FCFA501D49A25F00E6D99A /* Main.storyboard in Resources */,
+				92FCFA931D49AFB700E6D99A /* p1458183_128k.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FCFA591D49A25F00E6D99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FCFA971D49AFB700E6D99A /* p966452_128k.jpg in Resources */,
+				92FCFA8E1D49AFB700E6D99A /* p190415_128k.jpg in Resources */,
+				92FCFA911D49AFB700E6D99A /* p1393354_128k.jpg in Resources */,
+				92FCFA941D49AFB700E6D99A /* p1458183_128k.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FCFA641D49A25F00E6D99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FCFA981D49AFB700E6D99A /* p966452_128k.jpg in Resources */,
+				92FCFA8F1D49AFB700E6D99A /* p190415_128k.jpg in Resources */,
+				92FCFA921D49AFB700E6D99A /* p1393354_128k.jpg in Resources */,
+				92FCFA951D49AFB700E6D99A /* p1458183_128k.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FCFA3E1D49A25F00E6D99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FCFA4D1D49A25F00E6D99A /* ViewController.m in Sources */,
+				92FCFA861D49AA1700E6D99A /* UIColor+RGB.m in Sources */,
+				92FCFAC01D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */,
+				92FCFA7C1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */,
+				92FCFAA01D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */,
+				92FCFAA51D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */,
+				92FCFAAB1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */,
+				92FCFA4A1D49A25F00E6D99A /* AppDelegate.m in Sources */,
+				92FCFAB51D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */,
+				92FCFA811D49A3C900E6D99A /* RZPlayer.m in Sources */,
+				92FCFA9B1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */,
+				92FCFABA1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */,
+				92FCFA471D49A25F00E6D99A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FCFA571D49A25F00E6D99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FCFA601D49A25F00E6D99A /* RZAudioCachePlayerTests.m in Sources */,
+				92FCFAAC1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */,
+				92FCFA821D49A3C900E6D99A /* RZPlayer.m in Sources */,
+				92FCFA9C1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */,
+				92FCFA7D1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */,
+				92FCFA871D49AA1700E6D99A /* UIColor+RGB.m in Sources */,
+				92FCFAA61D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */,
+				92FCFAA11D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */,
+				92FCFABB1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */,
+				92FCFAB61D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */,
+				92FCFAC11D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FCFA621D49A25F00E6D99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FCFA6B1D49A25F00E6D99A /* RZAudioCachePlayerUITests.m in Sources */,
+				92FCFAAD1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */,
+				92FCFA831D49A3C900E6D99A /* RZPlayer.m in Sources */,
+				92FCFA9D1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */,
+				92FCFA7E1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */,
+				92FCFA881D49AA1700E6D99A /* UIColor+RGB.m in Sources */,
+				92FCFAA71D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */,
+				92FCFAA21D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */,
+				92FCFABC1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */,
+				92FCFAB71D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */,
+				92FCFAC21D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92FCFA5D1D49A25F00E6D99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FCFA411D49A25F00E6D99A /* RZAudioCachePlayer */;
+			targetProxy = 92FCFA5C1D49A25F00E6D99A /* PBXContainerItemProxy */;
+		};
+		92FCFA681D49A25F00E6D99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FCFA411D49A25F00E6D99A /* RZAudioCachePlayer */;
+			targetProxy = 92FCFA671D49A25F00E6D99A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92FCFA4E1D49A25F00E6D99A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FCFA4F1D49A25F00E6D99A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92FCFA531D49A25F00E6D99A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FCFA541D49A25F00E6D99A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92FCFA6D1D49A25F00E6D99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92FCFA6E1D49A25F00E6D99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FCFA701D49A25F00E6D99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RZAudioCachePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zrocky.RZAudioCachePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92FCFA711D49A25F00E6D99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RZAudioCachePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zrocky.RZAudioCachePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92FCFA731D49A25F00E6D99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RZAudioCachePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zrocky.RZAudioCachePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZAudioCachePlayer.app/RZAudioCachePlayer";
+			};
+			name = Debug;
+		};
+		92FCFA741D49A25F00E6D99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RZAudioCachePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zrocky.RZAudioCachePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZAudioCachePlayer.app/RZAudioCachePlayer";
+			};
+			name = Release;
+		};
+		92FCFA761D49A25F00E6D99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RZAudioCachePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zrocky.RZAudioCachePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RZAudioCachePlayer;
+			};
+			name = Debug;
+		};
+		92FCFA771D49A25F00E6D99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RZAudioCachePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zrocky.RZAudioCachePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RZAudioCachePlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FCFA3D1D49A25F00E6D99A /* Build configuration list for PBXProject "RZAudioCachePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FCFA6D1D49A25F00E6D99A /* Debug */,
+				92FCFA6E1D49A25F00E6D99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FCFA6F1D49A25F00E6D99A /* Build configuration list for PBXNativeTarget "RZAudioCachePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FCFA701D49A25F00E6D99A /* Debug */,
+				92FCFA711D49A25F00E6D99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FCFA721D49A25F00E6D99A /* Build configuration list for PBXNativeTarget "RZAudioCachePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FCFA731D49A25F00E6D99A /* Debug */,
+				92FCFA741D49A25F00E6D99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FCFA751D49A25F00E6D99A /* Build configuration list for PBXNativeTarget "RZAudioCachePlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FCFA761D49A25F00E6D99A /* Debug */,
+				92FCFA771D49A25F00E6D99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92FCFA3A1D49A25F00E6D99A /* Project object */;
+}
