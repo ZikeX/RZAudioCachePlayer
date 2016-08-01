@@ -11,6 +11,7 @@
 #import "UIView+ZXAdjustFrame.h"
 #import "RZPlayer.h"
 #import "UIButton+RZColorState.h"
+#import "RZPlayerFileHandle.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) UIImageView *bgView;
@@ -47,6 +48,7 @@
     [self.audioPlayer addObserver:self forKeyPath:@"progress" options:NSKeyValueObservingOptionNew context:nil];
     [self.audioPlayer addObserver:self forKeyPath:@"duration" options:NSKeyValueObservingOptionNew context:nil];
     [self.audioPlayer addObserver:self forKeyPath:@"cacheProgress" options:NSKeyValueObservingOptionNew context:nil];
+    
 }
 
 - (void)setupSubviews {
@@ -110,6 +112,7 @@
 
 - (void)skipBtnClick {
     NSLog(@"%@", [self.audioPlayer currentItemCacheFilePath]);
+    
     self.selectedIndex ++;
     if (self.selectedIndex >= self.audios.count) {
         self.selectedIndex = 0;

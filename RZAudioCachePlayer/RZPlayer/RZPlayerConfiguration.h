@@ -10,6 +10,7 @@
 #define RZPlayerConfiguration_h
 
 static NSTimeInterval RZPlayerRequstTimeout = 10.0;
-static NSString * RZPlayerMimeType = @"video/mp4";
+static NSString *RZPlayerMimeType = @"video/mp4";
+static NSUInteger RZPlayerMaxCacheCount = 50;
 
 #endif /* RZPlayerConfiguration_h */

@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface RZPlayerFileHandle : NSObject
-
 + (BOOL)createTempFile;
 + (void)writeTempFileData:(NSData *)data;
 + (NSData *)readTempFileDataWithOffset:(NSUInteger)offset length:(NSUInteger)length;

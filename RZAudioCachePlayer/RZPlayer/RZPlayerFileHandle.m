@@ -8,6 +8,7 @@
 
 #import "RZPlayerFileHandle.h"
 #import "NSString+RZPlayer.h"
+#import "RZPlayerConfiguration.h"
 
 @interface RZPlayerFileHandle ()
 
@@ -46,6 +47,9 @@
     NSString *cacheFilePath = [NSString stringWithFormat:@"%@/%@", cacheFolderPath, name];
     BOOL success = [[NSFileManager defaultManager] copyItemAtPath:[NSString tempFilePath] toPath:cacheFilePath error:nil];
     NSLog(@"cache file: %@", success ? @"success" : @"fail");
+    if ([self cacheCount] > RZPlayerMaxCacheCount) {
+        [self clearCache];
+    }
 }
 
 + (NSString *)cacheFileExistsWithURL:(NSURL *)URL {
@@ -57,8 +61,14 @@
 }
 
 + (BOOL)clearCache {
-    NSFileManager *manger = [NSFileManager defaultManager];
-    return [manger removeItemAtPath:[NSString cacheFolderPath] error:nil];
+    NSFileManager *manager = [NSFileManager defaultManager];
+    return [manager removeItemAtPath:[NSString cacheFolderPath] error:nil];
+}
+
++ (NSInteger)cacheCount {
+    NSFileManager *manager = [NSFileManager defaultManager];
+    NSDictionary *dict = [manager attributesOfItemAtPath:[NSString cacheFolderPath] error:nil];
+    return [dict[@"NSFileReferenceCount"] integerValue];
 }
 
 @end
