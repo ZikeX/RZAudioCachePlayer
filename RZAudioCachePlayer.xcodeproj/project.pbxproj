@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92687B7D1D4EE51500E68F93 /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B711D4EE51500E68F93 /* NSString+RZPlayer.m */; };
+		92687B7E1D4EE51500E68F93 /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B711D4EE51500E68F93 /* NSString+RZPlayer.m */; };
+		92687B7F1D4EE51500E68F93 /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B711D4EE51500E68F93 /* NSString+RZPlayer.m */; };
+		92687B801D4EE51500E68F93 /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B731D4EE51500E68F93 /* NSURL+RZPlayer.m */; };
+		92687B811D4EE51500E68F93 /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B731D4EE51500E68F93 /* NSURL+RZPlayer.m */; };
+		92687B821D4EE51500E68F93 /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B731D4EE51500E68F93 /* NSURL+RZPlayer.m */; };
+		92687B831D4EE51500E68F93 /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B751D4EE51500E68F93 /* RZPlayer.m */; };
+		92687B841D4EE51500E68F93 /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B751D4EE51500E68F93 /* RZPlayer.m */; };
+		92687B851D4EE51500E68F93 /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B751D4EE51500E68F93 /* RZPlayer.m */; };
+		92687B861D4EE51500E68F93 /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B781D4EE51500E68F93 /* RZPlayerFileHandle.m */; };
+		92687B871D4EE51500E68F93 /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B781D4EE51500E68F93 /* RZPlayerFileHandle.m */; };
+		92687B881D4EE51500E68F93 /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B781D4EE51500E68F93 /* RZPlayerFileHandle.m */; };
+		92687B891D4EE51500E68F93 /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B7A1D4EE51500E68F93 /* RZPlayerRequestTask.m */; };
+		92687B8A1D4EE51500E68F93 /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B7A1D4EE51500E68F93 /* RZPlayerRequestTask.m */; };
+		92687B8B1D4EE51500E68F93 /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B7A1D4EE51500E68F93 /* RZPlayerRequestTask.m */; };
+		92687B8C1D4EE51500E68F93 /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B7C1D4EE51500E68F93 /* RZPlayerResourceLoader.m */; };
+		92687B8D1D4EE51500E68F93 /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B7C1D4EE51500E68F93 /* RZPlayerResourceLoader.m */; };
+		92687B8E1D4EE51500E68F93 /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92687B7C1D4EE51500E68F93 /* RZPlayerResourceLoader.m */; };
 		92FCFA471D49A25F00E6D99A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA461D49A25F00E6D99A /* main.m */; };
 		92FCFA4A1D49A25F00E6D99A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA491D49A25F00E6D99A /* AppDelegate.m */; };
 		92FCFA4D1D49A25F00E6D99A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA4C1D49A25F00E6D99A /* ViewController.m */; };
@@ -18,9 +36,6 @@
 		92FCFA7C1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */; };
 		92FCFA7D1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */; };
 		92FCFA7E1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */; };
-		92FCFA811D49A3C900E6D99A /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA801D49A3C900E6D99A /* RZPlayer.m */; };
-		92FCFA821D49A3C900E6D99A /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA801D49A3C900E6D99A /* RZPlayer.m */; };
-		92FCFA831D49A3C900E6D99A /* RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA801D49A3C900E6D99A /* RZPlayer.m */; };
 		92FCFA861D49AA1700E6D99A /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */; };
 		92FCFA871D49AA1700E6D99A /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */; };
 		92FCFA881D49AA1700E6D99A /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */; };
@@ -42,21 +57,6 @@
 		92FCFAA01D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */; };
 		92FCFAA11D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */; };
 		92FCFAA21D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */; };
-		92FCFAA51D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */; };
-		92FCFAA61D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */; };
-		92FCFAA71D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */; };
-		92FCFAAB1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */; };
-		92FCFAAC1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */; };
-		92FCFAAD1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */; };
-		92FCFAB51D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */; };
-		92FCFAB61D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */; };
-		92FCFAB71D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */; };
-		92FCFABA1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */; };
-		92FCFABB1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */; };
-		92FCFABC1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */; };
-		92FCFAC01D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */; };
-		92FCFAC11D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */; };
-		92FCFAC21D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +77,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92687B701D4EE51500E68F93 /* NSString+RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RZPlayer.h"; sourceTree = "<group>"; };
+		92687B711D4EE51500E68F93 /* NSString+RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RZPlayer.m"; sourceTree = "<group>"; };
+		92687B721D4EE51500E68F93 /* NSURL+RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RZPlayer.h"; sourceTree = "<group>"; };
+		92687B731D4EE51500E68F93 /* NSURL+RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RZPlayer.m"; sourceTree = "<group>"; };
+		92687B741D4EE51500E68F93 /* RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayer.h; sourceTree = "<group>"; };
+		92687B751D4EE51500E68F93 /* RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayer.m; sourceTree = "<group>"; };
+		92687B761D4EE51500E68F93 /* RZPlayerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerConfiguration.h; sourceTree = "<group>"; };
+		92687B771D4EE51500E68F93 /* RZPlayerFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerFileHandle.h; sourceTree = "<group>"; };
+		92687B781D4EE51500E68F93 /* RZPlayerFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerFileHandle.m; sourceTree = "<group>"; };
+		92687B791D4EE51500E68F93 /* RZPlayerRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerRequestTask.h; sourceTree = "<group>"; };
+		92687B7A1D4EE51500E68F93 /* RZPlayerRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerRequestTask.m; sourceTree = "<group>"; };
+		92687B7B1D4EE51500E68F93 /* RZPlayerResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerResourceLoader.h; sourceTree = "<group>"; };
+		92687B7C1D4EE51500E68F93 /* RZPlayerResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerResourceLoader.m; sourceTree = "<group>"; };
 		92FCFA421D49A25F00E6D99A /* RZAudioCachePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZAudioCachePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FCFA461D49A25F00E6D99A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92FCFA481D49A25F00E6D99A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,8 +108,6 @@
 		92FCFA6C1D49A25F00E6D99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FCFA7A1D49A3B300E6D99A /* UIView+ZXAdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXAdjustFrame.h"; sourceTree = "<group>"; };
 		92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXAdjustFrame.m"; sourceTree = "<group>"; };
-		92FCFA7F1D49A3C900E6D99A /* RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayer.h; sourceTree = "<group>"; };
-		92FCFA801D49A3C900E6D99A /* RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayer.m; sourceTree = "<group>"; };
 		92FCFA841D49AA1700E6D99A /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
 		92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
 		92FCFA891D49AFB700E6D99A /* p190415_128k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p190415_128k.jpg; sourceTree = "<group>"; };
@@ -107,17 +118,6 @@
 		92FCFA9A1D49B3CC00E6D99A /* UIButton+RZColorState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RZColorState.m"; sourceTree = "<group>"; };
 		92FCFA9E1D49B44B00E6D99A /* UIImage+RZColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RZColorImage.h"; sourceTree = "<group>"; };
 		92FCFA9F1D49B44B00E6D99A /* UIImage+RZColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RZColorImage.m"; sourceTree = "<group>"; };
-		92FCFAA31D49DDFD00E6D99A /* RZPlayerFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerFileHandle.h; sourceTree = "<group>"; };
-		92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerFileHandle.m; sourceTree = "<group>"; };
-		92FCFAA91D49DFC200E6D99A /* NSString+RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RZPlayer.h"; sourceTree = "<group>"; };
-		92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RZPlayer.m"; sourceTree = "<group>"; };
-		92FCFAB31D49E84900E6D99A /* RZPlayerRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerRequestTask.h; sourceTree = "<group>"; };
-		92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerRequestTask.m; sourceTree = "<group>"; };
-		92FCFAB81D49EB1200E6D99A /* NSURL+RZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RZPlayer.h"; sourceTree = "<group>"; };
-		92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RZPlayer.m"; sourceTree = "<group>"; };
-		92FCFABD1D49EC1200E6D99A /* RZPlayerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZPlayerConfiguration.h; sourceTree = "<group>"; };
-		92FCFABE1D49F29B00E6D99A /* RZPlayerResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayerResourceLoader.h; sourceTree = "<group>"; };
-		92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayerResourceLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +145,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92687B6E1D4EE51500E68F93 /* RZPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				92687B6F1D4EE51500E68F93 /* Categories */,
+				92687B741D4EE51500E68F93 /* RZPlayer.h */,
+				92687B751D4EE51500E68F93 /* RZPlayer.m */,
+				92687B761D4EE51500E68F93 /* RZPlayerConfiguration.h */,
+				92687B771D4EE51500E68F93 /* RZPlayerFileHandle.h */,
+				92687B781D4EE51500E68F93 /* RZPlayerFileHandle.m */,
+				92687B791D4EE51500E68F93 /* RZPlayerRequestTask.h */,
+				92687B7A1D4EE51500E68F93 /* RZPlayerRequestTask.m */,
+				92687B7B1D4EE51500E68F93 /* RZPlayerResourceLoader.h */,
+				92687B7C1D4EE51500E68F93 /* RZPlayerResourceLoader.m */,
+			);
+			path = RZPlayer;
+			sourceTree = "<group>";
+		};
+		92687B6F1D4EE51500E68F93 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				92687B701D4EE51500E68F93 /* NSString+RZPlayer.h */,
+				92687B711D4EE51500E68F93 /* NSString+RZPlayer.m */,
+				92687B721D4EE51500E68F93 /* NSURL+RZPlayer.h */,
+				92687B731D4EE51500E68F93 /* NSURL+RZPlayer.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		92FCFA391D49A25F00E6D99A = {
 			isa = PBXGroup;
 			children = (
@@ -169,7 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				92FCFA781D49A38000E6D99A /* Categories */,
-				92FCFA791D49A38000E6D99A /* RZPlayer */,
+				92687B6E1D4EE51500E68F93 /* RZPlayer */,
 				92FCFA481D49A25F00E6D99A /* AppDelegate.h */,
 				92FCFA491D49A25F00E6D99A /* AppDelegate.m */,
 				92FCFA4B1D49A25F00E6D99A /* ViewController.h */,
@@ -224,35 +252,6 @@
 				92FCFA851D49AA1700E6D99A /* UIColor+RGB.m */,
 				92FCFA7A1D49A3B300E6D99A /* UIView+ZXAdjustFrame.h */,
 				92FCFA7B1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		92FCFA791D49A38000E6D99A /* RZPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				92FCFAA81D49DF9300E6D99A /* Categories */,
-				92FCFA7F1D49A3C900E6D99A /* RZPlayer.h */,
-				92FCFA801D49A3C900E6D99A /* RZPlayer.m */,
-				92FCFAA31D49DDFD00E6D99A /* RZPlayerFileHandle.h */,
-				92FCFAA41D49DDFD00E6D99A /* RZPlayerFileHandle.m */,
-				92FCFAB31D49E84900E6D99A /* RZPlayerRequestTask.h */,
-				92FCFAB41D49E84900E6D99A /* RZPlayerRequestTask.m */,
-				92FCFABE1D49F29B00E6D99A /* RZPlayerResourceLoader.h */,
-				92FCFABF1D49F29B00E6D99A /* RZPlayerResourceLoader.m */,
-				92FCFABD1D49EC1200E6D99A /* RZPlayerConfiguration.h */,
-			);
-			name = RZPlayer;
-			path = RZAudioCachePlayer;
-			sourceTree = "<group>";
-		};
-		92FCFAA81D49DF9300E6D99A /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				92FCFAA91D49DFC200E6D99A /* NSString+RZPlayer.h */,
-				92FCFAAA1D49DFC200E6D99A /* NSString+RZPlayer.m */,
-				92FCFAB81D49EB1200E6D99A /* NSURL+RZPlayer.h */,
-				92FCFAB91D49EB1200E6D99A /* NSURL+RZPlayer.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -399,18 +398,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92687B801D4EE51500E68F93 /* NSURL+RZPlayer.m in Sources */,
 				92FCFA4D1D49A25F00E6D99A /* ViewController.m in Sources */,
 				92FCFA861D49AA1700E6D99A /* UIColor+RGB.m in Sources */,
-				92FCFAC01D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */,
+				92687B7D1D4EE51500E68F93 /* NSString+RZPlayer.m in Sources */,
+				92687B831D4EE51500E68F93 /* RZPlayer.m in Sources */,
+				92687B8C1D4EE51500E68F93 /* RZPlayerResourceLoader.m in Sources */,
+				92687B891D4EE51500E68F93 /* RZPlayerRequestTask.m in Sources */,
+				92687B861D4EE51500E68F93 /* RZPlayerFileHandle.m in Sources */,
 				92FCFA7C1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */,
 				92FCFAA01D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */,
-				92FCFAA51D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */,
-				92FCFAAB1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */,
 				92FCFA4A1D49A25F00E6D99A /* AppDelegate.m in Sources */,
-				92FCFAB51D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */,
-				92FCFA811D49A3C900E6D99A /* RZPlayer.m in Sources */,
 				92FCFA9B1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */,
-				92FCFABA1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */,
 				92FCFA471D49A25F00E6D99A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,16 +419,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FCFA601D49A25F00E6D99A /* RZAudioCachePlayerTests.m in Sources */,
-				92FCFAAC1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */,
-				92FCFA821D49A3C900E6D99A /* RZPlayer.m in Sources */,
 				92FCFA9C1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */,
+				92687B871D4EE51500E68F93 /* RZPlayerFileHandle.m in Sources */,
+				92687B7E1D4EE51500E68F93 /* NSString+RZPlayer.m in Sources */,
+				92687B811D4EE51500E68F93 /* NSURL+RZPlayer.m in Sources */,
 				92FCFA7D1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */,
 				92FCFA871D49AA1700E6D99A /* UIColor+RGB.m in Sources */,
-				92FCFAA61D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */,
+				92687B8A1D4EE51500E68F93 /* RZPlayerRequestTask.m in Sources */,
+				92687B841D4EE51500E68F93 /* RZPlayer.m in Sources */,
+				92687B8D1D4EE51500E68F93 /* RZPlayerResourceLoader.m in Sources */,
 				92FCFAA11D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */,
-				92FCFABB1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */,
-				92FCFAB61D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */,
-				92FCFAC11D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,16 +437,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FCFA6B1D49A25F00E6D99A /* RZAudioCachePlayerUITests.m in Sources */,
-				92FCFAAD1D49DFC200E6D99A /* NSString+RZPlayer.m in Sources */,
-				92FCFA831D49A3C900E6D99A /* RZPlayer.m in Sources */,
 				92FCFA9D1D49B3CC00E6D99A /* UIButton+RZColorState.m in Sources */,
+				92687B881D4EE51500E68F93 /* RZPlayerFileHandle.m in Sources */,
+				92687B7F1D4EE51500E68F93 /* NSString+RZPlayer.m in Sources */,
+				92687B821D4EE51500E68F93 /* NSURL+RZPlayer.m in Sources */,
 				92FCFA7E1D49A3B300E6D99A /* UIView+ZXAdjustFrame.m in Sources */,
 				92FCFA881D49AA1700E6D99A /* UIColor+RGB.m in Sources */,
-				92FCFAA71D49DDFD00E6D99A /* RZPlayerFileHandle.m in Sources */,
+				92687B8B1D4EE51500E68F93 /* RZPlayerRequestTask.m in Sources */,
+				92687B851D4EE51500E68F93 /* RZPlayer.m in Sources */,
+				92687B8E1D4EE51500E68F93 /* RZPlayerResourceLoader.m in Sources */,
 				92FCFAA21D49B44B00E6D99A /* UIImage+RZColorImage.m in Sources */,
-				92FCFABC1D49EB1200E6D99A /* NSURL+RZPlayer.m in Sources */,
-				92FCFAB71D49E84900E6D99A /* RZPlayerRequestTask.m in Sources */,
-				92FCFAC21D49F29B00E6D99A /* RZPlayerResourceLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
