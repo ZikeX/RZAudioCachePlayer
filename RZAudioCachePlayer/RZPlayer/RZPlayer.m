@@ -22,6 +22,10 @@
 @end
 
 @implementation RZPlayer
+#pragma mark - life cycle
+- (void)dealloc {
+    [self stop];
+}
 
 #pragma mark - delegate
 #pragma mark - RZPlayerResourceLoaderDelegate
@@ -78,6 +82,7 @@
 - (void)stop {
     if (self.state != RZPlayerStateStopped) {
         [self.player pause];
+        [self.resourceLoader stopLoading];
         [self removeObserver];
         if (self.player) {
             [self.player replaceCurrentItemWithPlayerItem:nil];
@@ -88,6 +93,7 @@
         self.duration = 0.0;
         self.cacheProgress = 0.0;
         self.state = RZPlayerStateStopped;
+        [[AVAudioSession sharedInstance] setActive:NO error:nil];
     }
 }
 
@@ -125,6 +131,9 @@
 
 #pragma mark - private methods
 - (void)reloadCurrentItem {
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    [session setActive:YES error:nil];
     if ([self.URL.absoluteString hasPrefix:@"http"]) {
         // online
         NSString *cacheFilePath = [RZPlayerFileHandle cacheFileExistsWithURL:self.URL];
